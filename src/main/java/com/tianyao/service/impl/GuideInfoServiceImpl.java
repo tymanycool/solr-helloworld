@@ -1,8 +1,9 @@
-package com.tianyao.service;
+package com.tianyao.service.impl;
 
 import com.tianyao.entity.GuideInfoEntity;
 import com.tianyao.entity.TestEntity;
-import com.tianyao.mapper.GuideInfoMapper;
+import com.tianyao.dao.GuideInfoMapper;
+import com.tianyao.service.GuideInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

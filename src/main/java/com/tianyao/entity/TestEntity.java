@@ -19,4 +19,12 @@ public class TestEntity {
     public void setSid(Integer sid) {
         this.sid = sid;
     }
+
+    @Override
+    public String toString() {
+        return "TestEntity{" +
+                "sid=" + sid +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

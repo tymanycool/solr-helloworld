@@ -1,4 +1,4 @@
-package com.tianyao.mapper;
+package com.tianyao.dao;
 
 import com.tianyao.entity.TestEntity;
 
