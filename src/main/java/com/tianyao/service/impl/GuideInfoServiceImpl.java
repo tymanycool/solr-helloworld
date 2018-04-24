@@ -2,7 +2,7 @@ package com.tianyao.service.impl;
 
 import com.tianyao.entity.GuideInfoEntity;
 import com.tianyao.entity.TestEntity;
-import com.tianyao.dao.GuideInfoMapper;
+import com.tianyao.mapper.GuideInfoMapper;
 import com.tianyao.service.GuideInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,8 +17,7 @@ public class GuideInfoServiceImpl implements GuideInfoService {
 
     @Override
     public List<GuideInfoEntity> queryAllGuideInfo() {
-        return null;
-        //return guideInfoMapper.selectAllGuideInfo();
+        return guideInfoMapper.selectAllGuideInfo();
     }
 
     @Override
