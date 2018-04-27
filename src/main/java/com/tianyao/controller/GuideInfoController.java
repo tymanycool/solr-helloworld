@@ -1,5 +1,5 @@
 package com.tianyao.controller;
-包头，传销
+27号，我来到包头，感觉这里像传销，我很纠结……，不知道怎么办，赵珊，我的女朋友……
 
 import com.tianyao.entity.GuideInfoEntity;
 import com.tianyao.service.GuideInfoService;
