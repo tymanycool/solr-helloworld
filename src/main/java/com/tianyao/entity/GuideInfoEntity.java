@@ -1,43 +1,77 @@
 package com.tianyao.entity;
 
+import org.apache.solr.client.solrj.beans.Field;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
 
 public class GuideInfoEntity {
+    @Field("sid")
     private Integer sid;
+    @Field("guide_no")
     private Integer guide_no;
+    @Field("spell")
     private String spell;
+    @Field("mobile")
     private String mobile;
+    @Field("email")
     private String email;
+    @Field("guide_card")
     private String guide_card;
+    @Field("guide_bit")
     private Integer guide_bit;
+    @Field("valid_bit")
     private Integer valid_bit;
+    @Field("operator")
     private String operator;
+    @Field("operator_sid")
     private Integer operator_sid;
+    @Field("operator_time")
     private Date operator_time;
+    @Field("createtime")
     private Date createtime;
+    @Field("sex")
     private String sex;
+    @Field("name")
     private String name;
+    @Field("address")
     private String address;
+    @Field("education_cart_num")
     private String education_cart_num;
+    @Field("kitas_num")
     private String kitas_num;
+    @Field("kitas_endtime")
     private Date kitas_endtime;
+    @Field("health_cart_num")
     private String health_cart_num;
+    @Field("health_cart_endtime")
     private Date health_cart_endtime;
+    @Field("education")
     private String education;
+    @Field("age")
     private Integer age;
+    @Field("stature")
     private String stature;
+    @Field("present_address")
     private String present_address;
+    @Field("chest_bit")
     private Integer chest_bit;
+    @Field("deposit_bit")
     private Integer deposit_bit;
+    @Field("deposit_num")
     private String deposit_num;
+    @Field("entrytime")
     private Date entrytime;
+    @Field("leavetime")
     private Date leavetime;
+    @Field("guide_status")
     private Integer guide_status;
+    @Field("authorize")
     private Integer authorize;
+    @Field("endtime")
     private Date endtime;
+
 
     public Integer getSid() {
         return sid;

@@ -18,6 +18,11 @@
         <param-value>classpath*:applicationContext.xml</param-value>
     </context-param>
 
+    <!-- 核心监听器:创建IOC容器,并存放application域中 -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
     <filter>
         <filter-name>encodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
