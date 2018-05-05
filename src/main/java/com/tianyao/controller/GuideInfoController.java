@@ -1,5 +1,6 @@
 package com.tianyao.controller;
-
+27号，我来到包头，感觉这里像传销，我很纠结……，不知道怎么办，赵珊，我的女朋友……
+5.1号，今天有人来讲某平台，越发像传销，地点是包头青山区，北新街，3单元，六楼。
 import com.tianyao.entity.GuideInfoEntity;
 import com.tianyao.service.GuideInfoService;
 import com.tianyao.util.MyPropertiesUtil;
