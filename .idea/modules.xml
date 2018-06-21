@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SolrHelloWorld.iml" filepath="$PROJECT_DIR$/SolrHelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solr-helloworld.iml" filepath="$PROJECT_DIR$/solr-helloworld.iml" />
     </modules>
   </component>
 </project>

@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="SolrHelloWorld" />
+          <element id="module-output" name="solr-helloworld" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.solr:solr-solrj:4.10.1" />
@@ -41,7 +41,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/SolrHelloWorld/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="SolrHelloWorld/web/Web" />
+      <element id="javaee-facet-resources" facet="solr-helloworld/web/Web" />
     </root>
   </artifact>
 </component>
